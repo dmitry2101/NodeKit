@@ -6,11 +6,11 @@ target 'CoreNetKit' do
     use_frameworks!
 
     pod 'Alamofire', '~> 4.7.2'
-    pod 'CoreEvents', '~> 1.1.2'
+    pod 'CoreEvents', :git => “https://github.com/dmitry2101/CoreEvents.git“, :commit=>“9ef9df6”
 
     target 'CoreNetKitTests' do
 
-        pod 'CoreEvents', '~> 1.1.2'
+    pod 'CoreEvents', :git => “https://github.com/dmitry2101/CoreEvents.git“, :commit=>“9ef9df6”
 
     end
 

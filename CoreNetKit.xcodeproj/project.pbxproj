@@ -444,7 +444,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CoreNetKit-CoreNetKitTests/Pods-CoreNetKit-CoreNetKitTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CoreNetKit-CoreNetKitTests/Pods-CoreNetKit-CoreNetKitTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CoreEvents/CoreEvents.framework",
 			);
@@ -455,7 +455,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreNetKit-CoreNetKitTests/Pods-CoreNetKit-CoreNetKitTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoreNetKit-CoreNetKitTests/Pods-CoreNetKit-CoreNetKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9CCD08BCCA7B6993037D9002 /* [CP] Check Pods Manifest.lock */ = {
