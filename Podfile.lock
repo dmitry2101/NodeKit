@@ -1,10 +1,10 @@
 PODS:
   - Alamofire (4.7.2)
-  - CoreEvents (1.1.2)
+  - CoreEvents (1.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7.2)
-  - CoreEvents (from `https://github.com/dmitry2101/CoreEvents.git`, commit `9ef9df6`)
+  - CoreEvents (from `https://github.com/surfstudio/CoreEvents`, tag `1.3.0`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -12,18 +12,18 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   CoreEvents:
-    :commit: 9ef9df6
-    :git: https://github.com/dmitry2101/CoreEvents.git
+    :git: https://github.com/surfstudio/CoreEvents
+    :tag: 1.3.0
 
 CHECKOUT OPTIONS:
   CoreEvents:
-    :commit: 9ef9df6
-    :git: https://github.com/dmitry2101/CoreEvents.git
+    :git: https://github.com/surfstudio/CoreEvents
+    :tag: 1.3.0
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
-  CoreEvents: cbd056bc95f846766308920fd3e519d0afc0fc89
+  CoreEvents: 5cbaa323668a121ec4a54818972359f835e19002
 
-PODFILE CHECKSUM: 28cadbfbc09fe84970da7cc665c84104cee6e68c
+PODFILE CHECKSUM: b60796b432e052b43e0f6683f29e859bdcd46351
 
 COCOAPODS: 1.7.1
