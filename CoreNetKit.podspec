@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'CoreNetKit/Context/**/*.swift', 'CoreNetKit/Core/*.swift', 'CoreNetKit/Core/Adapters/**/*.swift', 'CoreNetKit/Core/Adapters/**/*.swift', 'CoreNetKit/Core/ServerPart/*.swift', 'CoreNetKit/Core/ServerPart/Protocols/*.swift', 'CoreNetKit/Kit/**/*.swift'
   s.dependency 'Alamofire', '~> 4.7.2'
-  s.dependency 'CoreEvents', '~> 1.1.2'
+  s.dependency 'CoreEvents', '~> 1.3.0'
 
 end
