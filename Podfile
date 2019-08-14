@@ -13,6 +13,10 @@ target 'CoreNetKit' do
     pod 'CoreEvents', :git => 'https://github.com/surfstudio/CoreEvents', :commit=> '97a41bf'
 
     end
-
+end
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings['SWIFT_VERSION'] = '5.0'
+  end
 end
 
